@@ -1,7 +1,7 @@
 import TextField from "@mui/material/TextField";
 import Button from "@mui/material/Button";
 import { useState } from "react";
-import "./SearchBox.css"; // Assuming external styles
+import "./searchbox.css";
 
 export default function SearchBox({ updateInfo }) {
   let [city, setCity] = useState("");
